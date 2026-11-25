@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/estilo-reg.css">
+</head>
+<body>
+    <header>
+        <h1>Navidad</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">BIENVENIDA</a></li>
+            <li><a href="HISTORIA.html">HISTORIA</a></li>
+            <li><a href="PERSONAJES.html">PERSONAJES</a></li>
+            <li><a href="REGALOS.html">REGALOS</a></li>
+            <li><a href="COMIDA.html">COMIDA</a></li>
+        </ul>
+    </nav>
+    <div class="contenido">
+        <section>
+    <h2>Lista de Regalos Navideños</h2>
+
+    <div class="caja-regalos">
+        <div class="controles">
+            <input type="text" id="input-regalo" placeholder="Escribe un regalo...">
+            <button onclick="agregarRegalo()">Agregar</button>
+        </div>
+
+        <ul id="lista-regalos"></ul>
+
+        <button class="btn-limpiar" onclick="limpiarLista()">Borrar todo</button>
+    </div>
+
+    <script src="../JS/REGALOS.js"></script>
+    </div>
+    <footer>
+        <h3>Creado por: Pablo Luna</h3>
+    </footer>
+</body>
+</html>

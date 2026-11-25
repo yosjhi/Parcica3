@@ -1,0 +1,136 @@
+body{
+    background-image: url(../IMAGENES/fondo.webp);
+}
+header{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 5px;
+    margin: 3px;
+}
+footer{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 5px;
+    margin: 3px;
+}
+nav{
+    background-color:rgb(19, 78, 37);
+    margin: 3px;
+    padding: 5px;
+}
+section{
+    background-color: rgba(19, 78, 37, 0.911);
+    padding: 5px;
+    margin: 3px;
+    width: 99%;
+    height: 700px;
+}
+ul{
+    color: aliceblue;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+li{
+    background-color: aliceblue;
+    display: inline;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.contenido{
+    background-color: rgba(0, 0, 0, 0.822);
+    padding: 5px;
+    margin: 3px;
+    display: flex;
+    border: 8px;
+    border-style: groove;
+    border-color: rgb(20, 58, 20);
+}
+.caja-regalos {
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 2px solid #27ae60;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.controles {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+button {
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #a93226;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+}
+
+.texto-regalo {
+    cursor: pointer;
+    flex: 1;
+}
+
+.comprado {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.btn-eliminar {
+    background-color: #555;
+    padding: 6px 10px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.btn-eliminar:hover {
+    background-color: #333;
+}
+
+.btn-limpiar {
+    margin-top: 15px;
+    background-color: #7f8c8d;
+    width: 100%;
+}
+
+.btn-limpiar:hover {
+    background-color: #636e72;
+}

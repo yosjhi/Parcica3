@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/estilo1.css">
+</head>
+<body>
+    <header>
+        <h1>Navidad</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">BIENVENIDA</a></li>
+            <li><a href="HISTORIA.html">HISTORIA</a></li>
+            <li><a href="PERSONAJES.html">PERSONAJES</a></li>
+            <li><a href="REGALOS.html">REGALOS</a></li>
+            <li><a href="COMIDA.html">COMIDA</a></li>
+        </ul>
+    </nav>
+    <div class="contenido">
+    <div class="tarjeta">
+        <img src="../IMAGENES/papa noel.webp" alt="" height="350px" width="300px">
+        <h3>Santa claus</h3>
+        <button onclick="mostrarDescripcion('noel')">Ver descripcion</button>
+        <p id="desc-noel" class="descripcion"></p>
+    </div>
+        <div class="tarjeta">
+        <img src="../IMAGENES/rodolfo.webp" alt="" height="350px" width="300px">
+        <h3>Rodolfo el reno</h3>
+        <button onclick="mostrarDescripcion('rodolfo')">Ver descripcion</button>
+        <p id="desc-rodolfo" class="descripcion"></p>
+    </div>
+        <div class="tarjeta">
+        <img src="../IMAGENES/duende.webp" alt="" height="350px" width="300px">
+        <h3>Santa claus</h3>
+        <button onclick="mostrarDescripcion('duende')">Ver descripcion</button>
+        <p id="desc-duende" class="descripcion"></p>
+    </div>
+    </div>
+    <footer>
+        <h3>Creado por: Pablo Luna</h3>
+    </footer>
+    <script src="../JS/Personajes.js"></script>
+</body>
+</html>

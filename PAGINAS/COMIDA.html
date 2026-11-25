@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/comida.css">
+</head>
+<body>
+    <header>
+        <h1>Navidad</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">BIENVENIDA</a></li>
+            <li><a href="HISTORIA.html">HISTORIA</a></li>
+            <li><a href="PERSONAJES.html">PERSONAJES</a></li>
+            <li><a href="REGALOS.html">REGALOS</a></li>
+            <li><a href="COMIDA.html">COMIDA</a></li>
+        </ul>
+    </nav>
+    <div class="contenido">
+        <section>
+            <h2>Menú de Platos Navideños</h2>
+
+    <div class="contenedor-principal">
+        
+        <div class="menu-platos">
+            <div class="plato">
+                <img src="../IMAGENES/picana.webp" alt="Picana Navideña">
+                <h3>Picana Navideña</h3>
+                <p class="precio">Bs. 45</p>
+                <button onclick="agregarAlCarrito('Picana Navideña', 45)">Agregar al carrito</button>
+            </div>
+
+            <div class="plato">
+                <img src="../IMAGENES/pavo.webp" alt="Pavo al Horno">
+                <h3>Pavo al Horno</h3>
+                <p class="precio">Bs. 60</p>
+                <button onclick="agregarAlCarrito('Pavo al Horno', 60)">Agregar al carrito</button>
+            </div>
+
+            <div class="plato">
+                <img src="../IMAGENES/lechon.webp" alt="Lechón al Horno">
+                <h3>Lechón al Horno</h3>
+                <p class="precio">Bs. 55</p>
+                <button onclick="agregarAlCarrito('Lechón al Horno', 55)">Agregar al carrito</button>
+            </div>
+        </div>
+
+        <div class="carrito">
+            <h3>🛒 Tu Carrito</h3>
+            <ul id="lista-carrito"></ul>
+            <hr>
+            <p class="total">Total: Bs. <span id="total-pagar">0</span></p>
+            <button class="btn-comprar" onclick="finalizarCompra()">Finalizar Pedido</button>
+            <button class="btn-vaciar" onclick="vaciarCarrito()">Vaciar Carrito</button>
+        </div>
+
+    </div>
+
+    <script src="script_comida.js"></script>
+</body>
+</html>
+        </section>
+    </div>
+    <footer>
+        <h3>Creado por: Pablo Luna</h3>
+    </footer>
+    <script src="../JS/Comida.js"></script>
+</body>
+</html>

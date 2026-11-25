@@ -1,0 +1,95 @@
+body{
+    background-image: url(../IMAGENES/fondo.webp);
+}
+header{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 5px;
+    margin: 3px;
+}
+footer{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 5px;
+    margin: 3px;
+}
+nav{
+    background-color:rgb(19, 78, 37);
+    margin: 3px;
+    padding: 5px;
+}
+section{
+    background-color: rgba(19, 78, 37, 0.911);
+    padding: 5px;
+    margin: 3px;
+    width: 99%;
+    height: 700px;
+}
+ul{
+    color: aliceblue;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+li{
+    background-color: aliceblue;
+    display: inline;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.contenido{
+    background-color: rgba(0, 0, 0, 0.822);
+    padding: 5px;
+    margin: 3px;
+    display: flex;
+    border: 8px;
+    border-style: groove;
+    border-color: rgb(20, 58, 20);
+}
+.contenedor{
+    text-align: center;
+}
+.tarjeta{
+    background-color: rgb(114, 45, 40);
+    padding: 5px;
+    margin: 3px;
+    text-align: center;
+}
+button{
+    background-color: green;
+    padding: 3px;
+    margin: 2px;
+}
+.caja-regalos{
+    background-color: white;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 10px;
+}
+.controles{
+    display: flex;
+    margin-bottom: 10px;
+}
+.texto-regalo{
+    flex: 1;
+}
+.comprado{
+    text-decoration: line-through;
+}
+.btn-eliminar{
+    padding: 3px;
+    margin: 5px;
+}
+.btn-limpiar{
+    margin: 5px;
+    padding: 3px;
+}
+.compra{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 5px;
+    padding: 3px;
+}
